@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(180deg, #CCFFFF, #FFCCCC);
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 40px
+}
+.surfer-joe {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    width: 300px;
+    height: 400px;
+    border-radius: 20%;
+  }
+  .middle {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 80px
+
+  }
+  .left {
+    position: relative;
+    bottom: 90px;
+    left: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 80px
+
+  }
+
+  .right {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 80px
+
+  }
+
+  .insta-font {
+    font-family: Lobster;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    
+  }
+  .center_font {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+  }
+
+  .left_font {
+    position: relative;
+    bottom: 168px;
+    left: 48px;
+
+    font-family: monospace;
+    
+  }
+
+  .right_font {
+    position: absolute;
+    right: 75px;
+    top: 112px;
+    font-family: monospace;
+  }
